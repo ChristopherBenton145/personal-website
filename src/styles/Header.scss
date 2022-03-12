@@ -1,0 +1,52 @@
+.section-hero {
+  animation: fade-in 3s forwards ease-out;
+  position: relative;
+  margin: auto;
+  margin-left: 50px;
+  margin-top: 150px;
+  width: 80%;
+  opacity: 0;
+
+  div {
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 600px;
+  }
+
+  h2 {
+    color: white;
+    font-size: 55px;
+
+    span {
+      display: inline-block;
+      transform: rotateZ(-5deg);
+      font-size: 60px;
+    }
+  }
+
+  p {
+    color: lightgray;
+    font-size: 20px;
+
+    span {
+      color: white;
+      font-style: italic;
+      font-size: 26px;
+    }
+
+    @keyframes fade-in {
+      100% {
+        margin-top: 0;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .section-hero p {
+    font-size: 25px;
+  }
+}
