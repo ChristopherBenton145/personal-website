@@ -1,25 +1,40 @@
 nav {
-  color: lightgray;
   font-family: "Fredoka", sans-serif;
   font-size: 20px;
+  height: 40px;
+  margin-top: 20px;
 
   .navbar {
     display: flex;
     justify-content: center;
     gap: 10px;
-    align-items: center;
-    height: 60px;
-    margin: auto;
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
 
     li {
+      list-style: none;
+
       &:hover {
-        color: white;
         cursor: pointer;
+        color: white;
         transform: scale(1.1);
         transition: 200ms;
       }
+    }
+  }
 
-      list-style: none;
+  a {
+    color: lightgray;
+  }
+}
+
+@media (min-width: 600px) {
+  nav {
+    font-size: 30px;
+
+    .navbar {
+      gap: 30px;
     }
   }
 }
