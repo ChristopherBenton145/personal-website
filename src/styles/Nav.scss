@@ -1,0 +1,25 @@
+nav {
+  color: lightgray;
+  font-family: "Fredoka", sans-serif;
+  font-size: 20px;
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    height: 60px;
+    margin: auto;
+
+    li {
+      &:hover {
+        color: white;
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 200ms;
+      }
+
+      list-style: none;
+    }
+  }
+}
