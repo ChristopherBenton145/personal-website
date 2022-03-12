@@ -1,7 +1,8 @@
 .section-projects {
+  color: white;
+  text-align: center;
   width: 90%;
   margin: auto;
-  color: white;
 
   h2 {
     font-size: 60px;
@@ -10,21 +11,21 @@
 
   .container {
     width: 80%;
-    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
+    margin: auto;
 
     div {
       background: #0f1624;
       box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+      border-radius: 20px;
       width: 300px;
 
       h4 {
         font-size: 30px;
-        text-align: center;
         margin: 10px;
       }
 
@@ -33,6 +34,57 @@
           center center;
         background-size: cover;
         height: 200px;
+      }
+
+      .image-2 {
+        background: url("../../public/images/landing-page.jpeg") no-repeat
+          center center;
+        background-size: cover;
+        height: 200px;
+      }
+
+      .image-3 {
+        background: url("../../public/images/drawing-project.jpeg") no-repeat
+          center center;
+        background-size: cover;
+        height: 200px;
+      }
+
+      button {
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+
+      .button-live {
+        background-color: rgb(196, 45, 45);
+        color: white;
+        border: 1px solid rgb(196, 45, 45);
+        border-radius: 5px;
+        font-size: 18px;
+        margin-right: 10px;
+        padding: 10px 30px;
+
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transition: 200ms;
+        }
+      }
+
+      .button-code {
+        background: none;
+        color: rgb(196, 45, 45);
+        border: 1px solid rgb(196, 45, 45);
+        border-radius: 5px;
+        font-size: 18px;
+        margin-left: 10px;
+        padding: 10px 30px;
+
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transition: 200ms;
+        }
       }
     }
   }
