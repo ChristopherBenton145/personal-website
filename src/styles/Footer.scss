@@ -1,0 +1,29 @@
+.section-footer {
+  background: #1c273d;
+  border-top: solid 1px lightgray;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 50px;
+
+  button {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 10px 30px;
+
+    &:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+      background-color: white;
+      color: black;
+      transition: 200ms;
+    }
+
+    &:active {
+      transform: scale(1);
+    }
+  }
+}

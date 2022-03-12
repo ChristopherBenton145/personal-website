@@ -1,12 +1,18 @@
 import './styles/App.scss';
 import Header from './components/Header';
-import About from './components/About';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Projects from './components/Projects';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

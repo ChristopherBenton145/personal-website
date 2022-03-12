@@ -1,0 +1,39 @@
+.section-projects {
+  width: 90%;
+  margin: auto;
+  color: white;
+
+  h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    div {
+      background: #0f1624;
+      box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+      width: 300px;
+
+      h4 {
+        font-size: 30px;
+        text-align: center;
+        margin: 10px;
+      }
+
+      .image-1 {
+        background: url("../../public/images/forms-example.jpg") no-repeat
+          center center;
+        background-size: cover;
+        height: 200px;
+      }
+    }
+  }
+}

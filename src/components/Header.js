@@ -4,7 +4,7 @@ import '../styles/Header.scss'
 
 function Header() {
   return (
-    <header>
+    <header id="header">
         <Nav />
         <section className="section-hero">
           <div><svg

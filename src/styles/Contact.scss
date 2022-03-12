@@ -1,0 +1,32 @@
+.section-contact {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+
+  h2 {
+    color: white;
+    font-size: 60px;
+  }
+
+  h3 {
+    color: white;
+    font-size: 25px;
+    line-height: 5px;
+  }
+
+  a {
+    color: lightgray;
+    font-size: 12px;
+    line-height: 5px;
+  }
+
+  .stop {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 800px) {
+  .section-contact a {
+    font-size: 20px;
+  }
+}
