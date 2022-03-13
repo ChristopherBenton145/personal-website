@@ -5,8 +5,13 @@ function Projects() {
   return (
     <section className="section-projects" id="projects">
       <h2>Projects</h2>
-      <h4>Disclaimer: I am currently working on new projects and don't have any right now. However, you can still check out my old projects.</h4>
       <div className="container">
+        <div>
+          <div className="image-4"></div>
+          <h4>Multistep Form</h4>
+          <a href="https://multistep-form8276d2.netlify.app/" target="_blank"><button className="button-live">Live</button></a>
+          <a href="https://github.com/TempUsername2436/multistep-form" target="_blank"><button className="button-code">Code</button></a>
+        </div>
         <div>
           <div className="image-1"></div>
           <h4>Forms Example</h4>
