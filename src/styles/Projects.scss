@@ -29,6 +29,10 @@
         margin: 10px;
       }
 
+      h5 {
+        margin: 0;
+      }
+
       .image-1 {
         background: url("../../public/images/forms-example.jpg") no-repeat
           center center;
@@ -52,6 +56,13 @@
 
       .image-4 {
         background: url("../../public/images/multistep-form-project.jpeg")
+          no-repeat center center;
+        background-size: cover;
+        height: 200px;
+      }
+
+      .image-5 {
+        background: url("../../public/images/first-website-background.jpeg")
           no-repeat center center;
         background-size: cover;
         height: 200px;
