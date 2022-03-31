@@ -1,6 +1,6 @@
 # Personal Website
 
-This is my personal website I created to showcase my talent in programming.
+This is my personal website I created to showcase my talent in programming. This was my old portfolio. This is my new website `https://christophers-portfolio42.netlify.app`.
 
 ## Built With
 
